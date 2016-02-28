@@ -1,0 +1,44 @@
+---
+title: Compositions
+layout: default
+---
+<div class="contents">
+  <div class="center-content">
+
+    <h1>Ensemble</h1>
+    {% for composition in site.data.compositions-ensemble %}
+      <div class="piece">
+        <h3>{{ composition.title }} ({{composition.date}})</h3>
+        {% if composition.dedication %}
+          <em>{{composition.dedication}}</em>
+        {% endif %}
+        
+        <p>{{composition.instrumentation}}</p>
+        <p>{{ composition.duration}}</p>
+
+        {% if composition.soundcloud %}
+          <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
+        {% endif %}
+        {% unless forloop.last %}<hr>{% endunless %}
+      </div>
+    {% endfor %}
+
+    <h1>Solo</h1>
+    {% for composition in site.data.compositions-solo %}
+      <div class="piece">
+        <h3>{{ composition.title }} ({{composition.date}})</h3>
+        {% if composition.dedication %}
+          <em>{{composition.dedication}}</em>
+        {% endif %}
+        
+        <p>{{composition.instrumentation}}</p>
+        <p>{{ composition.duration}}</p>
+
+        {% if composition.soundcloud %}
+          <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
+        {% endif %}
+        {% unless forloop.last %}<hr>{% endunless %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

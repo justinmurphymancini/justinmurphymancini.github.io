@@ -1,0 +1,36 @@
+---
+title: Performances
+layout: default
+---
+<div class="contents">
+  <div class="center-content">
+
+    <h1>Selected Performances</h1>
+    {% for piece in site.data.performances %}
+      <div class="composition">
+        <h3><em>{{ piece.title }}</em> &bull; {{ piece.composer }}</h3>
+        {% if piece.soundcloud %}
+          <iframe width="100%" {% if piece.multimovement %}height="450"{% else %}height="166"{% endif %} scrolling="no" frameborder="no" src="{{piece.soundcloud}}"></iframe>
+        {% endif %}
+      </div>
+    {% endfor %}
+
+    <h1>Recent Repertoire</h1>
+
+    {% for item in site.data.repertory %}
+      <div class="repertory">
+        <h3>{{ item.composer}}</h3>
+        <div class="pieces">
+        {% for piece in item.pieces %}
+          <h5>{{piece.title}}</h5>
+          <ul class="movements">
+          {% for movement in piece.movements %}
+            <li>{{ movement.title }}</li>
+          {% endfor %}
+          </ul>
+        {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

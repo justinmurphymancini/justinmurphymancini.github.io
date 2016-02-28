@@ -1,0 +1,68 @@
+#
+#  Compositions List
+#
+#   Add compositions below in the following format, denoting a new item
+#   with a - preceding the first attribute. Compositions will be displayed 
+#   in the order below. 
+#
+#   Example:
+#   
+# - title:
+#   date:
+#   duration:
+#   instrumentation:
+#   dedication: // this is optional
+#   soundcloud: // this is optional, use the 'src' link from the embed code
+#   score: // this is also optional
+#
+
+- title: "39 Panels of Mountain Snow"
+  date: "2015-2016"
+  dedication: "written for Michael Matsuno"
+  duration: "ca. 40'"
+  instrumentation: "flute, piano, sine tones"
+
+- title: "schulen wexe derk"
+  date: "2015"
+  dedication: "written for the Callithumpian Consort"
+  duration: "ca. 25'"
+  instrumentation: "flute, e-flat clarinet, violin, 'cello, contrabass, piano, two percussion"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/230539656&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "Scscsc."
+  date: "2014-2015"
+  dedication: "written for Ensemble Leachate"
+  duration: "ca. 15'"
+  instrumentation: "violin, e-flat clarinet, soprano saxophone, piano"
+
+- title: "-Expec t t"
+  date: "2014"
+  dedication: "written for Hillary Jean Young and Jonathan Nussman"
+  instrumentation: "two voices"
+  duration: "ca. 8'"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/190648155&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "nox praevelat"
+  date: "2013"
+  duration: "ca. 11'"
+  instrumentation: "piano, violin, 'cello"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150320856&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "vnt>>>>"
+  date: "2013"
+  dedication: "written for Ensemble SurPlus"
+  duration: "ca. 8'"
+  instrumentation: "flute, b-flat clarinet or bass clarinet, violin, 'cello, percussion"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/110735335&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "uxu<span style='border-bottom: 1px solid black;'>r</span>"
+  date: "2012-2013"
+  duration: "ca. 21'"
+  instrumentation: "viola, contrabass, celesta"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84502979&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "vautarnenkiss"
+  date: "2012"
+  duration: "ca. 6.5'"
+  instrumentation: "'cello, piano"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84497002&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"

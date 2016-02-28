@@ -1,0 +1,187 @@
+#
+#   Repertory
+#
+
+- composer: "Anonymous"
+  pieces:
+  - title: A ground (a final)
+  - title: Code Robertsbridge
+    movements:
+      - title: Adesto
+      - title: Estampie Retrove
+
+- composer: "Bach, Johann Christian"
+  pieces:
+    - title: "Sonata in B-flat major, Op. 16, No. 6"
+
+- composer: "Bach, Johann Sebastian"
+  pieces:
+    - title: "Sonata in E-flat major, BWV 525"
+    - title: "Sonata in G major, BWV 530"
+    - title: "Prelude and Fugue in C major, BWV 531"
+    - title: "Prelude and Fugue in f minor, BWV 534"
+    - title: "Fantasia and Fugue in g minor, BWV 542"
+    - title: "Toccata, Adagio, and Fugue in C major, BWV 564"
+    - title: "Praeludium in C major, BWV 566a"
+    - title: "Wachet auf, ruft uns die Stimme, BWV 645"
+    - title: "Nun komm, der Heiden Heiland, BWV 659-661"
+    - title: "Suite in b minor, BWV 814"
+    - title: "Suite in G major, BWV 816"
+    - title: "Partita in B-flat major, BWV 825"
+    - title: "Prelude and Fugue in d minor, BWV 875"
+    - title: "Prelude and Fugue in B-flat, BWV 890"
+    - title: "Fantasia and Fugue in d minor, BWV 903"
+    - title: "Sonata in d minor, BWV 964"
+
+- composer: "Barber, Samuel"
+  pieces:
+    - title: '"Wondrous Love", Variations on a Shape Note Hymn, Op. 34'
+
+- composer: "Böhm, Georg"
+  pieces:
+    - title: "Prelude and Fugue in C major"
+    - title: "Suite in c minor"
+
+- composer: "Bolcom, William"
+  pieces:
+    - title: "Gospel Preludes: Jesus Loves Me"
+
+- composer: "Brahms, Johannes"
+  pieces:
+    - title: "Fugue in a-flat minor, WoO 8"
+    - title: "Chorale Preludes, Op. 122 (selections)"
+
+- composer: "Buxtehude, Dieterich"
+  pieces:
+    - title: "Praeludium in a, BuxWV 153"
+    - title: "Toccata in F, BuxWV 156"
+
+- composer: "Canzona in G, BuxWV 170"
+  pieces:
+    - title: "Chorale Fantasia on “Nun freut euch,” BuxWV 210"
+
+- composer: "Byrd, William"
+  pieces:
+    - title: "My Lady Nevell’s Book"
+      movements:
+        - title: "A ground for my Lady Nevell"
+        - title: "Fantasia (d final)"
+    - title: "Pavan and Galliard (a final)"
+      movements:
+          - title: "Ut re mi fa so la"
+
+- composer: "Couperin, François"
+  pieces:
+    - title: "L’art de toucher le clavecin: Preludes 1-8"
+    - title: "Pieces de clavecin"
+      movements:
+        - title: "Ordre 18eme"
+        - title: "Ordre 22eme"
+        - title: "Ordre 24eme"
+
+- composer: "D’Anglebert, Jean Henry"
+  pieces:
+    - title: "Pieces en g (Selections)"
+    - title: "Tombeau pour M. de Chambonnieres"
+
+- composer: "Dupré, Marcel"
+  pieces:
+    - title: "Prélude et fugue en si majeur, Op. 7, No. 1"
+
+- composer: "Duruflé, Maurice"
+  pieces:
+    - title: "Prélude et fugue sur le nom d’Alain, Op. 12"
+
+- composer: "Farnaby, Giles"
+  pieces:
+    - title: "Fantasia (G final)"
+    - title: "Farmer’s Pavan"
+    - title: "Wooddy-Cocke"
+
+- composer: "Kerll, Johann Kaspar"
+  pieces:
+    - title: "Capriccio sopr’il cucu"
+    - title: "Passacaglia"
+    - title: "Toccata sexta"
+
+- composer: "Ligeti György"
+  pieces:
+    - title: "Hungarian Rock (Chaconne)"
+
+- composer: "Mendelssoh, Felix"
+  pieces:
+    - title: "Six Sonatas, Op. 65: Nos. 1, 3, 5, 6"
+
+- composer: "Messiaen, Olivier"
+  pieces:
+    - title: "Le Banquet céleste"
+    - title: "La Nativité du Seigneur: Les bergers"
+    - title: "Les corps glorieux"
+    - title: "Livre du Saint Sacrement: Offrande et Alleluia final"
+
+- composer: "Muffat, Georg"
+  pieces:
+    - title: "Toccata octava"
+
+- composer: "Price, Florence"
+  pieces:
+    - title: "In Quiet Mood"
+
+- composer: "Purcell, Henry"
+  pieces:
+    - title: "Suite in G major"
+
+- composer: "Reincken, Jan Adam"
+  pieces:
+    - title: "Fugue in g minor"
+
+- composer: "Sandresky, Margaret Vardell"
+  pieces:
+    - title: "Four Sacred Dances"
+
+- composer: "Scarlatti, Domenico"
+  pieces:
+    - title: "Sonata in A, K. 26"
+    - title: "Sonata in b, K. 27"
+    - title: "Sonata in g, K."
+    - title: "Sonata in G, K."
+
+- composer: "Scheidt, Samuel"
+  pieces:
+    - title: "Bergamasca"
+    - title: "Toccata “In te Domine speravi”"
+
+- composer: "Schumann, Robert"
+  pieces:
+    - title: "Studien, Op. 56: No. 1"
+    - title: "Skizzen, Op. 58: No. ?"
+    - title: "Six Fugues on BACH, Op. 60: Nos. 2, 6"
+
+- composer: "Sweelinck, Jan Pieterszoon"
+  pieces:
+    - title: "Fantasia crommatica"
+    - title: "Onder een linde groen"
+
+- composer: "Takemitsu, Toru"
+  pieces:
+    - title: "Rain Dreaming"
+
+- composer: "Tomkins, Thomas"
+  pieces:
+    - title: "Barafostus’ Dream"
+
+- composer: "Tournemire, Charles"
+  pieces:
+    - title: "Sept Chorals-Poëmes pour les Sept Paroles du Christ, Op. 67"
+
+- composer: "Vierne, Louis"
+  pieces:
+    - title: "Symphonie No. 2 in e minor: Allegro ??"
+
+- composer: "Walker, George"
+  pieces:
+    - title: "Invocation"
+
+- composer: "Willaert, Adrian"
+  pieces:
+    - title: "Musica Nova (1540): Ricercar XIV"

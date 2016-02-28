@@ -1,0 +1,200 @@
+.container
+    height: 100vh
+    width: 100vw
+.splash
+    box-sizing: border-box
+    height: calc(100vh - 90px)
+    max-width: 900px
+    width: 100vw
+    margin: 0 auto
+    padding: 8% 10%
+    background-color: rgb(51,51,51)
+    background-image: url(/assets/background.png)
+    background-size: 100% 100%
+    -webkit-filter: grayscale(1)
+    filter: grayscale(1)
+    display: flex 
+    align-items: center
+    &.h404
+        justify-content: center
+        flex-direction: column
+    & h1, & h2, & h3
+        color: #333
+        font-weight: 900
+    & h3
+        line-height: 2em
+        margin-left: 45px
+
+.contents
+    box-sizing: border-box
+    width: 100vw
+    min-height: calc(100vh - 96px)
+    background-color: white
+    background-image: url(/assets/background2.png)
+    background-size: contain
+    padding: 30px
+
+
+/* Images and Logos */
+
+.logo-grey, .logo-white
+    height: 50px
+    width: 119px
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+
+.logo-grey
+    background-image: url(/assets/logo-grey.svg)
+
+.logo-white
+    background-image: url(/assets/logo-white.svg)
+    margin: 21px 0
+
+.bio-pic
+    background-image: url(/assets/bio4.jpg)
+    width: 100%
+    height: 300px
+    background-size: cover
+    margin-bottom: 30px
+
+/* Utility Classes */
+
+.m-x-a
+    margin: 0 auto
+
+/* Piece and Composition Listings */
+
+.repertory, .event
+    display: flex
+    margin-bottom: 15px
+    & > h3
+        width: 31.9%
+    & > .pieces, & > .event-body
+        width: 68.1%    
+        margin-left: 15px    
+        & > h5
+            margin-bottom: 0
+            line-height: 24px
+        & .movements
+            margin-bottom: 0
+            list-style-type: square
+            font-size: 12px
+
+.location
+    font-weight: normal
+
+.center-content
+    background-color: rgba(255, 255, 255, .75)
+    width: 50vw
+    min-width: 270px
+    margin: 0 auto
+    padding: 0 15px 45px
+    & h1, & h2, & h3, & h4, & h5, & h6
+        font-family: Raleway
+        font-weight: 900
+    & h1
+        text-transform: uppercase
+        margin-top: 30px
+    
+.piece
+    font-size: 14px
+    & h6
+        font-size: 16px
+    & hr
+        border: 0
+        border-bottom: 2px solid rgba(0, 0, 0, .1)
+        margin-bottom: 15px
+        width: 50%
+        margin: 0 auto 15px
+    
+.soundcloud
+    width: 100%
+    margin-bottom: 15px
+
+
+/**
+ * Site header
+ */
+.site-header
+    background-color: rgba(0, 0, 0, .25)
+    border-bottom: 2px solid rgb(44, 44, 44)
+    height: 90px
+    padding: 0 30px
+    position: relative
+    & a
+        color: white
+        letter-spacing: 1.1px
+        font-weight: 900
+        text-decoration: none
+        &:hover
+            opacity: .8
+        &:active
+            opacity: .75
+
+.site-title
+    float: left
+
+.navigation-full ul
+    margin: 0
+    list-style: none
+    height: 90px
+    text-align: right
+    & li
+        font-family: Raleway
+        font-weight: bold
+        font-size: 15px
+        text-transform: uppercase
+        display: inline-block
+        color: white
+        margin: 0 15px
+        height: 90px
+        line-height: 90px
+        text-align: center
+    
+.site-nav
+    float: right
+    line-height: 56px
+    & .menu-icon
+        display: none
+    & .page-link
+        color: $text-color
+        line-height: $base-line-height
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child)
+            margin-right: 20px
+
+    @include media-query($on-palm)
+        position: absolute
+        top: 9px
+        right: $spacing-unit / 2
+        background-color: $background-color
+        border: 1px solid $grey-color-light
+        border-radius: 5px
+        text-align: right
+
+        & .menu-icon
+            display: block
+            float: right
+            width: 36px
+            height: 26px
+            line-height: 0
+            padding-top: 10px
+            text-align: center
+            & > svg
+                width: 18px
+                height: 15px
+                & path
+                    fill: $grey-color-dark
+        & .trigger
+            clear: both
+            display: none
+        &:hover .trigger
+            display: block
+            padding-bottom: 5px
+        & .page-link
+            display: block
+            padding: 5px 10px
+            &:not(:last-child)
+                margin-right: 0
+            margin-left: 20px

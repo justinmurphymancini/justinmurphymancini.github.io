@@ -1,0 +1,41 @@
+#
+#  Compositions List (SOLOS)
+#
+#   Add compositions below in the following format, denoting a new item
+#   with a - preceding the first attribute. Compositions will be displayed 
+#   in the order below. 
+#
+#   Example:
+#   
+# - title:
+#   date:
+#   duration:
+#   instrumentation:
+#   dedication: // this is optional
+#   soundcloud: // this is optional, use the 'src' link from the embed code
+#   score: // this is also optional
+#
+
+- title: "new work"
+  date: "2015-2016"
+  dedication: "written for the Matt Kline"
+  duration: "ca. 20'"
+  instrumentation: "contrabass"
+
+- title: "9 Triads of Mountain Snow in Early Evening"
+  date: "2015-2016"
+  dedication: "written for Michael Matsuno"
+  duration: "ca. 11'"
+  instrumentation: "flute, drone"
+
+- title: "s---oa----------n//?tt/ or l___ry"
+  date: "2012"
+  duration: "ca. 16'"
+  instrumentation: "chamber organ"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84494225&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "charnel hows"
+  date: "2011"
+  duration: "ca. 11'"
+  instrumentation: "e-flat clarinet"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/64037526&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
