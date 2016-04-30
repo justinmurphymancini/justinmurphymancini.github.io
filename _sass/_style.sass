@@ -52,6 +52,9 @@
 /* Images and Logos */
 
 .logo-grey, .logo-white
+    transform: scale(.6)
+    -ms-transform: scale(.6)
+    -webkit-transform: scale(.6)
     height: 33px
     width: 81px
     background-size: contain
@@ -197,9 +200,15 @@
     padding: 0 30px 15px
     text-align: center
     transition: transform 450ms ease-in-out
+    -ms-transition: -ms-transform 450ms ease-in-out
+    -webkit-transition: -webkit-transform 450ms ease-in-out
     transform: translateY(-100%)
+    -ms-transform: translateY(-100%)
+    -webkit-transform: translateY(-100%)
     &.active
         transform: none
+        -ms-transform: none
+        -webkit-transform: none
     & > ul
         margin: 0
         list-style: none
