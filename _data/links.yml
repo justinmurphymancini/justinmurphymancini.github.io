@@ -1,0 +1,51 @@
+#
+#  Links List
+#
+#  Name = text that will be displayed as the link"
+#  Link = the complete link including http(s)"
+#
+
+- name: "Tyler Borden"
+  link: "https://tylerjborden.com/"
+
+- name: "Jennifer Bower"
+  link: "https://soundcloud.com/jenny-bower"
+
+- name: "Elia Brown"
+  link: "http://www.elizabrown.net/"
+
+- name: "Matthew Chamberlain"
+  link: "http://www.matthewchamberlain.info/"
+
+- name: "Jessie Downs"
+  link: "http://jessiedowns.tumblr.com/"
+
+- name: "Douglas Farrand"
+  link: "http://www.douglasfarrand.com/biography/"
+
+- name: "Robert Hansler"
+  link: "http://roberthansler.com/"
+
+- name: "Seán Hanson"
+  link: "http://seanmhanson.com/"
+
+- name: "Leachate"
+  link: "http://www.mylandfillleachate.com/about.html"
+
+- name: "Michael Matsuno"
+  link: "http://www.michaelmatsuno.com/"
+
+- name: "Marek Poliks"
+  link: "http://www.marekpoliks.com/"
+
+- name: "Christian Smith"
+  link: "https://vimeo.com/christiansmit"
+
+- name: "Juliana Soltis"
+  link: "http://www.julianasoltis.com/"
+
+- name: "Andie Taylor"
+  link: "https://aecirulis.wordpress.com/"
+
+- name: "Yiheng Yvonne Wu"
+  link: "http://www.yvonnewu.com/"

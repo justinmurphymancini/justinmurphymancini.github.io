@@ -2,11 +2,11 @@
 #  Compositions List
 #
 #   Add compositions below in the following format, denoting a new item
-#   with a - preceding the first attribute. Compositions will be displayed 
-#   in the order below. 
+#   with a - preceding the first attribute. Compositions will be displayed
+#   in the order below.
 #
 #   Example:
-#   
+#
 # - title:
 #   date:
 #   duration:
@@ -21,6 +21,7 @@
   dedication: "written for Michael Matsuno"
   duration: "ca. 40'"
   instrumentation: "flute, piano, sine tones"
+  status: "incomplete"
 
 - title: "schulen wexe derk"
   date: "2015"
@@ -28,12 +29,14 @@
   duration: "ca. 25'"
   instrumentation: "flute, e-flat clarinet, violin, 'cello, contrabass, piano, two percussion"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/230539656&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+  score: "schulen_wexe_derk.pdf"
 
 - title: "Scscsc."
   date: "2014-2015"
   dedication: "written for Ensemble Leachate"
   duration: "ca. 15'"
   instrumentation: "violin, e-flat clarinet, soprano saxophone, piano"
+  score: "scscsc.pdf"
 
 - title: "-Expec t t"
   date: "2014"
@@ -41,12 +44,14 @@
   instrumentation: "two voices"
   duration: "ca. 8'"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/190648155&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+  score: "expec_t_t.pdf"
 
 - title: "nox praevelat"
   date: "2013"
   duration: "ca. 11'"
   instrumentation: "piano, violin, 'cello"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150320856&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+  score: "nox_praevelat.pdf"
 
 - title: "vnt>>>>"
   date: "2013"

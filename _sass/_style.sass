@@ -13,7 +13,7 @@
     background-size: 100% 100%
     -webkit-filter: grayscale(1)
     filter: grayscale(1)
-    display: flex 
+    display: flex
     align-items: center
     &.h404
         justify-content: center
@@ -22,7 +22,7 @@
         color: #333
         font-weight: 900
     & h3
-        line-height: 2em
+        line-height: 1.5em
         margin-left: 45px
 
 .contents
@@ -38,8 +38,8 @@
 /* Images and Logos */
 
 .logo-grey, .logo-white
-    height: 50px
-    width: 119px
+    height: 33px
+    width: 81px
     background-size: contain
     background-repeat: no-repeat
     background-position: center center
@@ -49,13 +49,14 @@
 
 .logo-white
     background-image: url(/assets/logo-white.svg)
-    margin: 21px 0
+    margin: 25px 0
 
 .bio-pic
-    background-image: url(/assets/bio4.jpg)
+    background-image: url(/assets/bio.jpg)
     width: 100%
     height: 300px
     background-size: cover
+    background-position: center 15%
     margin-bottom: 30px
 
 /* Utility Classes */
@@ -71,8 +72,8 @@
     & > h3
         width: 31.9%
     & > .pieces, & > .event-body
-        width: 68.1%    
-        margin-left: 15px    
+        width: 68.1%
+        margin-left: 15px
         & > h5
             margin-bottom: 0
             line-height: 24px
@@ -96,7 +97,7 @@
     & h1
         text-transform: uppercase
         margin-top: 30px
-    
+
 .piece
     font-size: 14px
     & h6
@@ -107,11 +108,16 @@
         margin-bottom: 15px
         width: 50%
         margin: 0 auto 15px
-    
+
 .soundcloud
     width: 100%
     margin-bottom: 15px
 
+.link-list
+    list-style: square
+    & li
+        margin: 10px 0
+        font-size: 14px
 
 /**
  * Site header
@@ -151,7 +157,7 @@
         height: 90px
         line-height: 90px
         text-align: center
-    
+
 .site-nav
     float: right
     line-height: 56px

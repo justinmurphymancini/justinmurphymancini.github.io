@@ -1,0 +1,17 @@
+---
+title: Compositions
+layout: default
+---
+<div class="contents">
+  <div class="center-content">
+    <h1>Links</h1>
+
+    <ul class="link-list">
+      {% for site in site.data.links %}
+      <li>
+        <a href="{{site.link}}" target="_blank">{{site.name}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

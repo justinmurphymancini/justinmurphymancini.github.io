@@ -12,9 +12,15 @@ layout: default
         {% if composition.dedication %}
           <em>{{composition.dedication}}</em>
         {% endif %}
-        
+
         <p>{{composition.instrumentation}}</p>
         <p>{{ composition.duration}}</p>
+
+        {% if composition.score %}
+        <p>
+          <a href="/assets/scores/{{composition.score}}" target="_blank">score</a>
+        </p>
+        {% endif %}
 
         {% if composition.soundcloud %}
           <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
@@ -30,7 +36,7 @@ layout: default
         {% if composition.dedication %}
           <em>{{composition.dedication}}</em>
         {% endif %}
-        
+
         <p>{{composition.instrumentation}}</p>
         <p>{{ composition.duration}}</p>
 

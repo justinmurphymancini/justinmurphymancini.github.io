@@ -4,33 +4,23 @@
 
 - composer: "Anonymous"
   pieces:
-  - title: A ground (a final)
   - title: Code Robertsbridge
     movements:
       - title: Adesto
       - title: Estampie Retrove
 
-- composer: "Bach, Johann Christian"
-  pieces:
-    - title: "Sonata in B-flat major, Op. 16, No. 6"
-
 - composer: "Bach, Johann Sebastian"
   pieces:
-    - title: "Sonata in E-flat major, BWV 525"
     - title: "Sonata in G major, BWV 530"
     - title: "Prelude and Fugue in C major, BWV 531"
-    - title: "Prelude and Fugue in f minor, BWV 534"
     - title: "Fantasia and Fugue in g minor, BWV 542"
     - title: "Toccata, Adagio, and Fugue in C major, BWV 564"
     - title: "Praeludium in C major, BWV 566a"
-    - title: "Wachet auf, ruft uns die Stimme, BWV 645"
-    - title: "Nun komm, der Heiden Heiland, BWV 659-661"
     - title: "Suite in b minor, BWV 814"
-    - title: "Suite in G major, BWV 816"
-    - title: "Partita in B-flat major, BWV 825"
     - title: "Prelude and Fugue in d minor, BWV 875"
     - title: "Prelude and Fugue in B-flat, BWV 890"
     - title: "Fantasia and Fugue in d minor, BWV 903"
+    - title: "Toccata in D major, BMV 912"
     - title: "Sonata in d minor, BWV 964"
 
 - composer: "Barber, Samuel"
@@ -40,7 +30,6 @@
 - composer: "Böhm, Georg"
   pieces:
     - title: "Prelude and Fugue in C major"
-    - title: "Suite in c minor"
 
 - composer: "Bolcom, William"
   pieces:
@@ -55,9 +44,7 @@
   pieces:
     - title: "Praeludium in a, BuxWV 153"
     - title: "Toccata in F, BuxWV 156"
-
-- composer: "Canzona in G, BuxWV 170"
-  pieces:
+    - title: "Canzona in G, BuxWV 170"
     - title: "Chorale Fantasia on “Nun freut euch,” BuxWV 210"
 
 - composer: "Byrd, William"
@@ -66,18 +53,18 @@
       movements:
         - title: "A ground for my Lady Nevell"
         - title: "Fantasia (d final)"
-    - title: "Pavan and Galliard (a final)"
-      movements:
-          - title: "Ut re mi fa so la"
+        - title: "Ut re mi fa so la"
 
 - composer: "Couperin, François"
   pieces:
     - title: "L’art de toucher le clavecin: Preludes 1-8"
     - title: "Pieces de clavecin"
       movements:
-        - title: "Ordre 18eme"
-        - title: "Ordre 22eme"
         - title: "Ordre 24eme"
+
+- composer: "Couperin, Louis"
+  pieces:
+    - title: "Pi&egrave;ces en R&eacute;"
 
 - composer: "D’Anglebert, Jean Henry"
   pieces:
@@ -98,6 +85,16 @@
     - title: "Farmer’s Pavan"
     - title: "Wooddy-Cocke"
 
+- composer: "Froberger, Johann Jakob"
+  pieces:
+    - title: "Libro Secondo: Toccata II"
+    - title: "Libro Quarto: Toccata I, Ricercar IV, Suite III "
+    - title: Tombeau de M. Blancheroche
+
+- composer: "Howells, Herbert"
+  pieces:
+    - title: "Master Tallis' Testament"
+
 - composer: "Kerll, Johann Kaspar"
   pieces:
     - title: "Capriccio sopr’il cucu"
@@ -110,30 +107,25 @@
 
 - composer: "Mendelssoh, Felix"
   pieces:
-    - title: "Six Sonatas, Op. 65: Nos. 1, 3, 5, 6"
+    - title: "Six Sonatas, Op. 65: Nos. 3, 5"
 
 - composer: "Messiaen, Olivier"
   pieces:
-    - title: "Le Banquet céleste"
-    - title: "La Nativité du Seigneur: Les bergers"
     - title: "Les corps glorieux"
     - title: "Livre du Saint Sacrement: Offrande et Alleluia final"
-
-- composer: "Muffat, Georg"
-  pieces:
-    - title: "Toccata octava"
 
 - composer: "Price, Florence"
   pieces:
     - title: "In Quiet Mood"
 
-- composer: "Purcell, Henry"
-  pieces:
-    - title: "Suite in G major"
-
 - composer: "Reincken, Jan Adam"
   pieces:
     - title: "Fugue in g minor"
+
+- composer: "Royer, Jean Nicolas Pancrace"
+  pieces:
+    - title: "La Marche des Scythes"
+    - title: "La Sensible"
 
 - composer: "Sandresky, Margaret Vardell"
   pieces:
@@ -143,8 +135,6 @@
   pieces:
     - title: "Sonata in A, K. 26"
     - title: "Sonata in b, K. 27"
-    - title: "Sonata in g, K."
-    - title: "Sonata in G, K."
 
 - composer: "Scheidt, Samuel"
   pieces:
@@ -154,8 +144,13 @@
 - composer: "Schumann, Robert"
   pieces:
     - title: "Studien, Op. 56: No. 1"
-    - title: "Skizzen, Op. 58: No. ?"
+    - title: "Skizzen, Op. 58: No. 2"
     - title: "Six Fugues on BACH, Op. 60: Nos. 2, 6"
+
+- composer: Storace, Bernardo
+  pieces:
+    - title: "Ciaccona"
+    - title: "Passacaglia in A"
 
 - composer: "Sweelinck, Jan Pieterszoon"
   pieces:
