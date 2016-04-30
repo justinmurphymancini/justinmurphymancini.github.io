@@ -32,5 +32,17 @@ layout: default
         </div>
       </div>
     {% endfor %}
+
+    <h1>Requested Works</h1>
+    {% for item in site.data.requested-works %}
+    <div class="repertory">
+      <h3>{{ item.composer }}</h3>
+      <div class="pieces">
+        {% for piece in item.pieces %}
+        <h5>{{piece.title}}{{%if piece.dates %}}, {{piece.dates}}){{% endif %}}</h5>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </div>
