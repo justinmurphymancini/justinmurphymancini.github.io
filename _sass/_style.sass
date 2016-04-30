@@ -63,7 +63,7 @@
 
 .logo-white
     background-image: url(/assets/logo-white.svg)
-    margin: 25px 0
+    padding: 25px 0
 
 .bio-pic
     background-image: url(/assets/bio.jpg)
@@ -148,11 +148,11 @@
  * Site header
  */
 .site-header
-    background-color: rgba(0, 0, 0, .25)
-    border-bottom: 2px solid rgb(44, 44, 44)
+    background-color: #222
     height: 90px
     padding: 0 30px
     position: relative
+    z-index: 3
     & a
         color: white
         letter-spacing: 1.1px
@@ -162,6 +162,57 @@
             opacity: .8
         &:active
             opacity: .75
+    & .nav-toggle
+        position: absolute
+        top: 33px
+        right: 33px
+        display: none
+        color: white
+        cursor: pointer
+        &.active
+            color: #AAA
+    @media screen and (max-width: $sm-breakpoint)
+        text-align: center
+        padding: 0
+        & .navigation-full
+            display: none
+        & .site-title
+            display: inline-block
+            float: none
+        & .nav-toggle
+            display: inline-block
+
+.nav-overlay
+    box-sizing: border-box
+    position: absolute
+    z-index: 2
+    width: 100%
+    background-color: rgba(32, 32, 32, .9)
+    display: none
+    padding: 0 30px 15px
+    text-align: center
+    transition: transform 450ms ease-in-out
+    transform: translateY(-100%)
+    &.active
+        transform: none
+    & > ul
+        margin: 0
+        list-style: none
+        & > li
+            padding: 10px
+    & a
+        color: white
+        letter-spacing: 1.1px
+        font-weight: 900
+        text-decoration: none
+        &:hover
+            opacity: .8
+        &:active
+            opacity: .75
+
+    @media screen and (max-width: $sm-breakpoint)
+        display: block
+
 
 .site-title
     float: left
