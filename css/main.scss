@@ -25,6 +25,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$xxs-breakpoint:   480px;
+$sm-breakpoint:    728px;
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;

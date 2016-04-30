@@ -1,6 +1,7 @@
 .container
     height: 100vh
     width: 100vw
+
 .splash
     box-sizing: border-box
     height: calc(100vh - 90px)
@@ -23,7 +24,20 @@
         font-weight: 900
     & h3
         line-height: 1.5em
-        margin-left: 45px
+        margin-left: 75px
+    @media screen and (max-width: $sm-breakpoint)
+        flex-direction: column
+        justify-content: center
+        padding-right: 15%
+        & h1, & h2, & h3
+            width: 100%
+            text-align: right
+        & h1
+            font-size: 1.5em
+        & h3
+            font-size: 1em
+            margin-left: 0
+
 
 .contents
     box-sizing: border-box
@@ -58,6 +72,7 @@
     background-size: cover
     background-position: center 15%
     margin-bottom: 30px
+    border: 5px solid black
 
 /* Utility Classes */
 
@@ -81,6 +96,16 @@
             margin-bottom: 0
             list-style-type: square
             font-size: 12px
+    @media screen and (max-width: $sm-breakpoint)
+        flex-direction: column
+        & > h3
+            width: 100%
+        & > .pieces
+            & > h5
+                font-weight: normal
+                line-height: 15px
+                margin-bottom: 10px
+
 
 .location
     font-weight: normal
