@@ -14,6 +14,13 @@
 #   dedication: // this is optional
 #   soundcloud: // this is optional, use the 'src' link from the embed code
 #   score: // this is also optional
+#   youtube: // this is also optional
+#
+#   To add a soundcloud link, get the condensed embed code, set the play
+#   button color to #000000, then paste the link from it in quotes below.
+#
+#   To add a youtube video, paste only the video id (the ~11 character
+#   string after "v=" and before any "&" in the link)
 #
 
 - title: merewerges
@@ -28,6 +35,7 @@
   dedication: "written for Matt Kline"
   duration: "ca. 20'"
   instrumentation: "contrabass"
+  status: "incomplete"
 
 - title: "9 Triads of Mountain Snow in Early Evening"
   date: "2015-2016"

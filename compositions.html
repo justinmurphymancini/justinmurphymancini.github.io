@@ -30,6 +30,9 @@ layout: default
         {% if composition.soundcloud %}
           <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
         {% endif %}
+        {% if composition.youtube %}
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{composition.youtube}}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
         {% unless forloop.last %}<hr>{% endunless %}
       </div>
     {% endfor %}
@@ -51,6 +54,9 @@ layout: default
 
         {% if composition.soundcloud %}
           <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
+        {% endif %}
+        {% if composition.youtube %}
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{composition.youtube}}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
         {% unless forloop.last %}<hr>{% endunless %}
       </div>

@@ -1,5 +1,11 @@
 #
-#   Performnace List
+#   Performance List
+#
+#   To add a soundcloud link, get the condensed embed code, set the play
+#   button color to #000000, then paste the link from it in quotes below.
+#
+#   To add a youtube video, paste only the video id (the ~11 character
+#   string after "v=" and before any "&" in the link)
 #
 
 - title: "Pi&egrave;ces en sol (selections)"
@@ -13,7 +19,7 @@
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/19296458&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 
 - title: "Rain Dreaming"
-  composer: Toru Takemitsu
+  composer: "Toru Takemitsu"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225569448&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 
 - title: "Pr&eacute;lude et Fugue sur le nom d'Alain"
@@ -31,3 +37,7 @@
 - title: "in any sustained sound which appears stagnant"
   composer: "Sam Erin C&imacr;rulis"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202478152&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "Prelude and Fugue in B-Flat BWV 890"
+  composer: "Johann Sebastian Bach"
+  youtube: "id2dacpv--Y"

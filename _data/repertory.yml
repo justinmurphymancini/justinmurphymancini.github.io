@@ -4,7 +4,7 @@
 
 - composer: "Anonymous"
   pieces:
-  - title: Code Robertsbridge
+  - title: Codex Robertsbridge
     movements:
       - title: Adesto
       - title: Estampie Retrove
@@ -60,7 +60,8 @@
     - title: "L’art de toucher le clavecin: Preludes 1-8"
     - title: "Pieces de clavecin"
       movements:
-        - title: "Ordre 24eme"
+        - title: "Ordre 6&egrave;me"
+        - title: "Ordre 24&egrave;me"
 
 - composer: "Couperin, Louis"
   pieces:
@@ -68,7 +69,7 @@
 
 - composer: "D’Anglebert, Jean Henry"
   pieces:
-    - title: "Pieces en g (Selections)"
+    - title: "Pieces en g (selections)"
     - title: "Tombeau pour M. de Chambonnieres"
 
 - composer: "Dupré, Marcel"

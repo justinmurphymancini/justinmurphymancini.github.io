@@ -12,6 +12,9 @@ layout: default
         {% if piece.soundcloud %}
           <iframe width="100%" {% if piece.multimovement %}height="450"{% else %}height="166"{% endif %} scrolling="no" frameborder="no" src="{{piece.soundcloud}}"></iframe>
         {% endif %}
+        {% if piece.youtube %}
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{piece.youtube}}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
       </div>
     {% endfor %}
 
@@ -39,7 +42,7 @@ layout: default
       <h3>{{ item.composer }}</h3>
       <div class="pieces">
         {% for piece in item.pieces %}
-        <h5>{{piece.title}}{{%if piece.dates %}}, {{piece.dates}}){{% endif %}}</h5>
+        <h5>{{piece.title}}{{%if piece.dates %}}, ({{piece.dates}}){{% endif %}}</h5>
         {% endfor %}
       </div>
     </div>
