@@ -1,10 +1,21 @@
 #
 #   Performance List
 #
-#   To add a soundcloud link, get the condensed embed code, set the play
-#   button color to #000000, then paste the link from it in quotes below.
+#   Example:
 #
-#   To add a youtube video, paste only the video id (the ~11 character
+#   - title:
+#     composer:
+#     multimovement: (opt) set to "true" if embedding a soundcloud link with
+#                     several pieces in a playlist
+#     soundcloud: (opt), see below
+#     youtube: (opt), see below
+#
+#   To add a Soundcloud link, go to the media you want to include and click for
+#   an embed code. Select the small media player, and set the button color to
+#   #000000. Then copy the link provided after "src=" and paste in quotation
+#   marks.
+#
+#   To add a youtube video, paste the video id (the ~11 character
 #   string after "v=" and before any "&" in the link)
 #
 

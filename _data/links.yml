@@ -1,8 +1,10 @@
 #
-#  Links List
+#   Links List
 #
-#  Name = text that will be displayed as the link"
-#  Link = the complete link including http(s)"
+#   Example:
+#
+#   - name:
+#     link:
 #
 
 - name: "Tyler Borden"

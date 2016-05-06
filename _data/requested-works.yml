@@ -1,5 +1,13 @@
 #
 #   Requested Works List
+#   (grouped by composer)
+#
+#   Example:
+#
+#   - composer:
+#     pieces: [this is a list header, leave it blank]
+#       - title:
+#         dates:
 #
 
 - composer: "Chamberlain, Matthew"
@@ -7,12 +15,12 @@
     - title: "Kimberly from King Street Coffee"
       dates: "2013"
 
-- composer: "Farrand, Douglas"
-  pieces:
-    - title: "Organ Solo"
-      dates: "2012-13"
-
 - composer: "C&imacr;rulis, Sam Erin"
   pieces:
     - title: "in any sustained sound which appears stagnant"
       dates: "2014-15"
+
+- composer: "Farrand, Douglas"
+  pieces:
+    - title: "Organ Solo"
+      dates: "2012-13"
