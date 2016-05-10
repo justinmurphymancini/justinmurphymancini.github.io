@@ -1,5 +1,12 @@
 #
-#  Upcoming Items List
+#   Upcoming Events List
+#
+#   Example:
+#
+#   - date:
+#     title:
+#     description: (opt)
+#     location: (opt)
 #
 
 - date: June 2016

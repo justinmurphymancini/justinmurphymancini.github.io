@@ -1,13 +1,23 @@
 #
-#   Repertory
+#   Repertory List
+#   (grouped by composer)
+#
+#   Example:
+#
+#   - composer:
+#     pieces: [this is a list header, leave it blank]
+#       - title:
+#         movements: (opt) [this is a list header, leave it blank]
+#           - title: (repeat for each movement or selection)
+#
 #
 
 - composer: "Anonymous"
   pieces:
-  - title: Codex Robertsbridge
-    movements:
-      - title: Adesto
-      - title: Estampie Retrove
+    - title: Codex Robertsbridge
+      movements:
+        - title: Adesto
+        - title: Estampie Retrove
 
 - composer: "Bach, Johann Sebastian"
   pieces:

@@ -1,5 +1,5 @@
 ---
-title: Performances
+title: Performer
 layout: default
 ---
 <div class="contents">
@@ -9,9 +9,11 @@ layout: default
     {% for piece in site.data.performances %}
       <div class="composition">
         <h3><em>{{ piece.title }}</em> &bull; {{ piece.composer }}</h3>
+
         {% if piece.soundcloud %}
           <iframe width="100%" {% if piece.multimovement %}height="450"{% else %}height="166"{% endif %} scrolling="no" frameborder="no" src="{{piece.soundcloud}}"></iframe>
         {% endif %}
+
         {% if piece.youtube %}
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{piece.youtube}}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
@@ -23,29 +25,34 @@ layout: default
     {% for item in site.data.repertory %}
       <div class="repertory">
         <h3>{{ item.composer}}</h3>
+
         <div class="pieces">
-        {% for piece in item.pieces %}
-          <h5>{{piece.title}}</h5>
-          <ul class="movements">
-          {% for movement in piece.movements %}
-            <li>{{ movement.title }}</li>
+          {% for piece in item.pieces %}
+            <h5>{{piece.title}}</h5>
+
+            <ul class="movements">
+              {% for movement in piece.movements %}
+                <li>{{ movement.title }}</li>
+              {% endfor %}
+            </ul>
           {% endfor %}
-          </ul>
-        {% endfor %}
         </div>
       </div>
     {% endfor %}
 
     <h1>Requested Works</h1>
     {% for item in site.data.requested-works %}
-    <div class="repertory">
-      <h3>{{ item.composer }}</h3>
-      <div class="pieces">
-        {% for piece in item.pieces %}
-        <h5>{{piece.title}}{{%if piece.dates %}}, ({{piece.dates}}){{% endif %}}</h5>
-        {% endfor %}
+      <div class="repertory">
+        <h3>{{ item.composer }}</h3>
+
+        <div class="pieces">
+          {% for piece in item.pieces %}
+            <h5>
+              {{piece.title}}{{%if piece.dates %}}, ({{piece.dates}}){{% endif %}}
+            </h5>
+          {% endfor %}
+        </div>
       </div>
-    </div>
     {% endfor %}
   </div>
 </div>

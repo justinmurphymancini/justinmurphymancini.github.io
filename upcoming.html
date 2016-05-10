@@ -6,22 +6,23 @@ layout: default
   <div class="center-content">
 
     <h1>Upcoming Events</h1>
-    
+
     {% for event in site.data.upcoming %}
-    <div class="event">
-      <h3>{{ event.date }}</h3>
-      <div class="event-body">
-        <h4>{{ event.title }}
-        {% if event.location %}
-          <br><span class="location">
-            {{event.location}}
-          </span>
-        {% endif %}</h4>
-        {% if event.description %}
-        <small>{{event.description}}</small>
-        {% endif %}
+      <div class="event">
+        <h3>{{ event.date }}</h3>
+
+        <div class="event-body">
+          <h4>{{ event.title }}
+            {% if event.location %}
+              <br><span class="location">{{event.location}}</span>
+            {% endif %}
+          </h4>
+
+          {% if event.description %}
+            <small>{{event.description}}</small>
+          {% endif %}
+        </div>
       </div>
-    </div>
     {% endfor %}
   </div>
 </div>

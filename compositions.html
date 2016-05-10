@@ -1,65 +1,76 @@
 ---
-title: Compositions
+title: Composer
 layout: default
 ---
 <div class="contents">
   <div class="center-content">
 
     <h1>Ensemble</h1>
-    {% for composition in site.data.compositions-ensemble %}
-      <div class="piece">
-        <h3>{{ composition.title }} ({{composition.date}})
-          {% if composition.status == "incomplete" %}*
-            <span class="progress">*In Progress</span>
+    {% for composition in site.data.compositions %}
+      {% if composition.category == "ensemble" %}
+        <div class="piece">
+          <h3>{{ composition.title }} ({{composition.date}})
+            {% if composition.status == "incomplete" %}*
+              <span class="progress">*In Progress</span>
+            {% endif %}
+          </h3>
+
+          {% if composition.dedication %}
+            <em>{{composition.dedication}}</em>
           {% endif %}
 
-        </h3>
-        {% if composition.dedication %}
-          <em>{{composition.dedication}}</em>
-        {% endif %}
+          <p>{{composition.instrumentation}}</p>
+          <p>{{ composition.duration}}</p>
 
-        <p>{{composition.instrumentation}}</p>
-        <p>{{ composition.duration}}</p>
+          {% if composition.score %}
+            <p><a href="/assets/scores/{{composition.score}}" target="_blank">score</a></p>
+          {% endif %}
 
-        {% if composition.score %}
-        <p>
-          <a href="/assets/scores/{{composition.score}}" target="_blank">score</a>
-        </p>
-        {% endif %}
+          {% if composition.soundcloud %}
+            <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
+          {% endif %}
 
-        {% if composition.soundcloud %}
-          <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
-        {% endif %}
-        {% if composition.youtube %}
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{composition.youtube}}" frameborder="0" allowfullscreen></iframe>
-        {% endif %}
-        {% unless forloop.last %}<hr>{% endunless %}
-      </div>
+          {% if composition.youtube %}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{composition.youtube}}" frameborder="0" allowfullscreen></iframe>
+          {% endif %}
+
+          {% unless forloop.last %}<hr>{% endunless %}
+        </div>
+      {% endif %}
     {% endfor %}
 
     <h1>Solo</h1>
-    {% for composition in site.data.compositions-solo %}
-      <div class="piece">
-        <h3>{{ composition.title }} ({{composition.date}})
-          {% if composition.status == "incomplete" %}*
-            <span class="progress">*In Progress</span>
+    {% for composition in site.data.compositions %}
+      {% if composition.category == "solo" %}
+        <div class="piece">
+          <h3>{{ composition.title }} ({{composition.date}})
+            {% if composition.status == "incomplete" %}*
+              <span class="progress">*In Progress</span>
+            {% endif %}
+          </h3>
+
+          {% if composition.dedication %}
+            <em>{{composition.dedication}}</em>
           {% endif %}
-        </h3>
-        {% if composition.dedication %}
-          <em>{{composition.dedication}}</em>
-        {% endif %}
 
-        <p>{{composition.instrumentation}}</p>
-        <p>{{ composition.duration}}</p>
+          {% if composition.score %}
+            <p><a href="/assets/scores/{{composition.score}}" target="_blank">score</a></p>
+          {% endif %}
 
-        {% if composition.soundcloud %}
-          <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
-        {% endif %}
-        {% if composition.youtube %}
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{composition.youtube}}" frameborder="0" allowfullscreen></iframe>
-        {% endif %}
-        {% unless forloop.last %}<hr>{% endunless %}
-      </div>
+          <p>{{composition.instrumentation}}</p>
+          <p>{{ composition.duration}}</p>
+
+          {% if composition.soundcloud %}
+            <iframe class="soundcloud" height="166" scrolling="no" frameborder="no" src="{{composition.soundcloud}}"></iframe>
+          {% endif %}
+
+          {% if composition.youtube %}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{composition.youtube}}" frameborder="0" allowfullscreen></iframe>
+          {% endif %}
+
+          {% unless forloop.last %}<hr>{% endunless %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>

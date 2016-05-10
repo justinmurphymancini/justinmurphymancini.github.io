@@ -1,30 +1,36 @@
 #
-#  Compositions List
-#
-#   Add compositions below in the following format, denoting a new item
-#   with a - preceding the first attribute. Compositions will be displayed
-#   in the order below.
+#   Compositions List
 #
 #   Example:
 #
 # - title:
 #   date:
+#   category: either "ensemble" or "solo", this determines where it is listed
 #   duration:
 #   instrumentation:
-#   dedication: // this is optional
-#   soundcloud: // this is optional, use the 'src' link from the embed code
-#   score: // this is also optional
-#   youtube: // this is also optional
+#   dedication: (opt)
+#   soundcloud: (opt), see below
+#   score: (opt), see below
+#   youtube: (opt), see below
+#   status: (opt), set to "incomplete" if in progress
 #
-#   To add a soundcloud link, get the condensed embed code, set the play
-#   button color to #000000, then paste the link from it in quotes below.
+#   To add a Soundcloud link, go to the media you want to include and click for
+#   an embed code. Select the small media player, and set the button color to
+#   #000000. Then copy the link provided after "src=" and paste in quotation
+#   marks.
 #
-#   To add a youtube video, paste only the video id (the ~11 character
+#   To add a score, add the pdf file to the assets folder, then provide the
+#   filename including ".pdf".
+#
+#   To add a youtube video, paste the video id (the ~11 character
 #   string after "v=" and before any "&" in the link)
 #
 
+# Ensembles
+
 - title: "39 Panels of Mountain Snow"
   date: "2015-2016"
+  category: "ensemble"
   dedication: "written for Michael Matsuno"
   duration: "ca. 40'"
   instrumentation: "flute, piano, sine tones"
@@ -32,6 +38,7 @@
 
 - title: "Lighten"
   date: "2014-2016"
+  category: "ensemble"
   dedication: "written for Ensemble Leachate"
   duration: "ca. 15'"
   instrumentation: "violin, e-flat clarinet, soprano saxophone, piano"
@@ -39,6 +46,7 @@
 
 - title: "schulen wexe derk"
   date: "2015"
+  category: "ensemble"
   dedication: "written for the Callithumpian Consort"
   duration: "ca. 25'"
   instrumentation: "flute, e-flat clarinet, violin, 'cello, contrabass, piano, two percussion"
@@ -47,6 +55,7 @@
 
 - title: "-Expec t t"
   date: "2014"
+  category: "ensemble"
   dedication: "written for Hillary Jean Young and Jonathan Nussman"
   instrumentation: "two voices"
   duration: "ca. 8'"
@@ -55,6 +64,7 @@
 
 - title: "nox praevelat"
   date: "2013"
+  category: "ensemble"
   duration: "ca. 11'"
   instrumentation: "piano, violin, 'cello"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150320856&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
@@ -62,6 +72,7 @@
 
 - title: "vnt>>>>"
   date: "2013"
+  category: "ensemble"
   dedication: "written for Ensemble SurPlus"
   duration: "ca. 8'"
   instrumentation: "flute, b-flat clarinet or bass clarinet, violin, 'cello, percussion"
@@ -69,12 +80,53 @@
 
 - title: "uxu<span style='border-bottom: 1px solid black;'>r</span>"
   date: "2012-2013"
+  category: "ensemble"
   duration: "ca. 21'"
   instrumentation: "viola, contrabass, celesta"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84502979&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 
 - title: "vautarnenkiss"
   date: "2012"
+  category: "ensemble"
   duration: "ca. 6.5'"
   instrumentation: "'cello, piano"
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84497002&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+# Solos
+
+- title: merewerges
+  date: "2016"
+  category: "solo"
+  dedication: "written for Tyler Borden"
+  duration: "ca. 15'"
+  instrumentation: "'cello"
+  status: "incomplete"
+
+- title: "The Ash Tree is Flowering, for the first time"
+  date: "2015-2016"
+  category: "solo"
+  dedication: "written for Matt Kline"
+  duration: "ca. 20'"
+  instrumentation: "contrabass"
+  status: "incomplete"
+
+- title: "9 Triads of Mountain Snow in Early Evening"
+  date: "2015-2016"
+  category: "solo"
+  dedication: "written for Michael Matsuno"
+  duration: "ca. 11'"
+  instrumentation: "flute, drone"
+
+- title: "s---oa----------n//?tt/ or l___ry"
+  date: "2012"
+  category: "solo"
+  duration: "ca. 16'"
+  instrumentation: "chamber organ"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84494225&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
+
+- title: "charnel hows"
+  date: "2011"
+  category: "solo"
+  duration: "ca. 11'"
+  instrumentation: "e-flat clarinet"
+  soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/64037526&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
