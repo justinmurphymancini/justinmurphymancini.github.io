@@ -1,28 +1,33 @@
 #
-#   Upcoming Events List
+#   Events List
+#
+#   Please list these in order by date, with most recent at the end!
 #
 #   Example:
 #
 #   - date:
 #     title:
+#     previous: (opt) - set to true to have the event listed as a past event
 #     description: (opt)
 #     location: (opt)
 #
 
 - date: June 2016
   title: "Parkeology Finale"
+  previous: true
   description: "with Kate Clark and others"
   location: "Balboa Park, San Diego"
 
 - date: August 2016
   title: "BRQ Vantaa Festival Fringe"
+  previous: true
   description: "Performing selections from <em>Entrez le Diable!</em> with Juliana Soltis, Adaiha MacAdam-Somer, and Daniel Swenberg"
   location: "Vantaa, Finland"
 
 - date: Summer/Fall 2016
   title: "CD Release: <em>Entrez le Diable! Virtuoso Cello at the Concert Spirituel</em>"
   description: "Juliana Soltis, baroque cello, with Lucas Harris, Adaiha MacAdam-Somer, and Justin Murphy-Mancini"
-  
+
 - date: October 2016
   title: "<em>merewerges</em> Premiere"
   description: "New work written for T.J. Borden's DMA recital"

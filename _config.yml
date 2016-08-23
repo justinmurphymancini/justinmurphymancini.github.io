@@ -16,3 +16,7 @@ url: "http://justinmurphymancini.com" # the base hostname & protocol for your si
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems:
+  - jekyll-redirect-from
