@@ -27,15 +27,35 @@
 - date: 2017
   title: "CD Release: <em>Entrez le Diable! Virtuoso Cello at the Concert Spirituel</em>"
   description: "Juliana Soltis, baroque cello, with Lucas Harris, Adaiha MacAdam-Somer, and Justin Murphy-Mancini"
+  
+- date: 2017
+  title: "CD Release: Organ for the Senses I"
+  description: "Music by Michael Pisaro, Sam Dunscombe, and others performed on the Spreckels Organ in Balboa Park, San Diego"
 
 - date: January 17, 2017
   title: "<em>merewerges</em> Premiere"
+  previous: true
   description: "New work written for T.J. Borden's DMA recital"
+  location: "UCSD"
+  
+- date: February 10, 2017
+  title: "Fridays at First Premiere"
+  description: "First installment of the Fridays at First lunchtime concert series. Works by J.S. Bach, H. Leslie Adams, and Louis Vierne"
+  location: "First Unitarian Universalist Church of San Diego"
+  
+- date: February 10, 2017
+  title: "Carmine"
+  description: "Performance of Antoine Beuger's <em>karminrot</em> at the slowSD festival"
+  location: "UCSD"
+  
+- date: February 11, 2017
+  title: "on and off"
+  description: "Performance of Eva-Maria Houben's <em>ab und zu</em> at the slowSD festival"
   location: "UCSD"
   
 - date: February 12, 2017
   title: "<em>Two Pieces for Flute</em> Premiere"
-  description: "Michael Matsuno and T.J. Borden perform at the SlowSD Festival"
+  description: "Michael Matsuno and T.J. Borden perform at the slowSD festival"
   location: "UCSD"
 
 - date: February 22, 2017
