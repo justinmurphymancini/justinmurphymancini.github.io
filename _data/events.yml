@@ -40,25 +40,30 @@
   
 - date: February 10, 2017
   title: "Fridays at First Premiere"
+  previous: true
   description: "First installment of the Fridays at First lunchtime concert series. Works by J.S. Bach, H. Leslie Adams, and Louis Vierne"
   location: "First Unitarian Universalist Church of San Diego"
   
 - date: February 10, 2017
   title: "Carmine"
+  previous: true
   description: "Performance of Antoine Beuger's <em>karminrot</em> at the slowSD festival"
   location: "UCSD"
   
 - date: February 11, 2017
   title: "on and off"
+  previous: true
   description: "Performance of Eva-Maria Houben's <em>ab und zu</em> at the slowSD festival"
   location: "UCSD"
   
 - date: February 12, 2017
   title: "<em>Two Pieces for Flute</em> Premiere"
+  previous: true
   description: "Michael Matsuno and T.J. Borden perform at the slowSD festival"
   location: "UCSD"
 
 - date: February 22, 2017
   title: "<em>A song of grecis.</em> Premiere"
+  previous: true
   description: "New work written for red fish blue fish for their WEDS@7 concert. Also featuring music by Johanna Beyer and Iannis Xenakis"
   location: "UCSD"
