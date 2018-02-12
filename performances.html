@@ -24,11 +24,11 @@ layout: default
 
     {% for item in site.data.repertory %}
       <div class="repertory">
-        <h3>{{ item.composer}}</h3>
+        <h3>{{ item.composer }}</h3>
 
         <div class="pieces">
           {% for piece in item.pieces %}
-            <h5>{{piece.title}}</h5>
+            <h5>{{ piece.title }}</h5>
 
             <ul class="movements">
               {% for movement in piece.movements %}
@@ -48,7 +48,7 @@ layout: default
         <div class="pieces">
           {% for piece in item.pieces %}
             <h5>
-              {{piece.title}}{{%if piece.dates %}}, ({{piece.dates}}){{% endif %}}
+              {{ piece.title }}{% if piece.dates %}, ({{ piece.dates }}){% endif %}
             </h5>
           {% endfor %}
         </div>
