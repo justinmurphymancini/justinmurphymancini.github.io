@@ -24,13 +24,14 @@
   description: "Performing selections from <em>Entrez le Diable!</em> with Juliana Soltis, Adaiha MacAdam-Somer, and Daniel Swenberg"
   location: "Vantaa, Finland"
 
-- date: 2017
+- date: Spring 2017
   title: "CD Release: <em>Entrez le Diable! Virtuoso Cello at the Concert Spirituel</em>"
   previous: true
   description: "Juliana Soltis, baroque cello, with Lucas Harris, Adaiha MacAdam-Somer, and Justin Murphy-Mancini"
   
-- date: 2017
+- date: Summer 2017
   title: "CD Release: Organ for the Senses I"
+  previous: true
   description: "Music by Michael Pisaro, Sam Dunscombe, and others performed on the Spreckels Organ in Balboa Park"
 
 - date: January 17, 2017
