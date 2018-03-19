@@ -105,6 +105,12 @@
   description: "A performance of Petr Eben's organ cycle <em>Job</em> with a lecture by Dr. Marvin Sweeney of the Claremont School of Theology"
   location: "First United Methodist Church, San Diego, CA"
 
+- date: March 3, 2018
+  title: "pianist, alone"
+  previous: true
+  description: "Performing Jürg Frey's <em>pianist, alone</em>"
+  location: "First Unitarian Universalist Church, San Diego, CA"
+
 - date: March 25, 2018
   title: "SUUN Choirs Present Fauré's <em>Requiem</em>"
   description: "The combined choirs of San Diego's Unitarian Universalist congretations present a program of choral music, featuring Gabriel Fauré's extraordinary setting of the Requiem Mass"
