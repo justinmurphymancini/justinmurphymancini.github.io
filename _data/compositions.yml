@@ -28,11 +28,27 @@
 
 # Ensembles
 
+- title: "new work"
+  date: "2018"
+  category: "ensemble"
+  dedication: "written for Sean Dowgray"
+  instrumentation: "harpsichord, multipercussion"
+  status: "incomplete"
+  
+- title: "new work"
+  date: "2018"
+  category: "ensemble"
+  dedication: "written for Hillary Jean Young, Alexandria Smith, and Kathryn Schulmeister"
+  duration: "ca. 20'"
+  instrumentation: "soprano, trumpet, double bass"
+  status: "incomplete"
+
 - title: "Three Songs after Antonio Machado"
   date: "2017-18"
   category: "ensemble"
   dedication: "commissioned by First Unitarian Universalist Church of San Diego Women's Choir"
-  instrumentation: "SSAA voices, flute obbligato, string quartet"
+  instrumentation: "SSAA voices, piano"
+  status: "incomplete"
 
 - title: "3 tainiai - in collaboration with Alyssa Kai"
   date: "2016-2017"
@@ -113,7 +129,7 @@
 
 # Solos
 
-- title: "Pier 34"
+- title: "Darkling Thrush"
   date: "2017-18"
   category: "solo"
   dedication: "written for Jonathan Nussman"
