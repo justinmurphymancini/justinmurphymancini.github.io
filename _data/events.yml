@@ -87,3 +87,39 @@
   description: "Chamber music of Telemann and Bach's Cantata 107"
   location: "All Souls Episcopal Church, San Diego, CA"
   
+- date: December 13, 2017
+  title: "Morning Pipes Concert Series"
+  previous: true
+  description: "Organ music for the Christmas season by J.S. Bach, Hugo Distler, Charles Tournemire, and Olivier Messiaen"
+  location: "First United Methodist Church, San Diego, CA"
+
+- date: December 16 & 17, 2017
+  title: "Service of Readings and Carols"
+  previous: true
+  description: "With the San Diego Pro Arte Voices"
+  location: "Village Presbyterian Church, Rancho Santa Fe, CA, and St. Andrew's Episcopal Church, San Diego, CA"
+  
+- date: February 18, 2018
+  title: "JOB Lecture Recital"
+  previous: true
+  description: "A performance of Petr Eben's organ cycle <em>Job</em> with a lecture by Dr. Marvin Sweeney of the Claremont School of Theology"
+  location: "First United Methodist Church, San Diego, CA"
+
+- date: March 25, 2018
+  title: "SUUN Choirs Present Fauré's <em>Requiem</em>"
+  description: "The combined choirs of San Diego's Unitarian Universalist congretations present a program of choral music, featuring Gabriel Fauré's extraordinary setting of the Requiem Mass"
+  
+- date: April 12, 2018
+  title: "Lines and Tracings"
+  description: "Premiering Morgan Evans-Weiler's work for clarinet, violin, cello, piano, and harpsichord on UCSD'S Soundings festival"
+  location: "UCSD"
+  
+- date: April 21, 2018
+  title: "Ardor String Trio"
+  description: "Performing harmonium with the Ardor Trio in Dvořák's <em>Bagatelles</em>
+  location: "The Sandbox, San Diego, CA"
+  
+- date: May 31, 2018
+  title: "Premiere of new work"
+  description: "Premiering a new piece for harpsichord and percussion written for Sean Dowgray's DMA recital"
+  location: "UCSD"  
