@@ -28,27 +28,26 @@
 
 # Ensembles
 
-- title: "new work"
+- title: "sic itur ad astra"
   date: "2018"
   category: "ensemble"
   dedication: "written for Sean Dowgray"
   instrumentation: "harpsichord, multipercussion"
   status: "incomplete"
   
-- title: "new work"
+- title: "Pinterest Sex - with text by Miguelzinta Solis"
   date: "2018"
   category: "ensemble"
-  dedication: "written for Hillary Jean Young, Alexandria Smith, and Kathryn Schulmeister"
+  dedication: "written for Hillary Jean Young and Kyle Adam Blair"
   duration: "ca. 20'"
-  instrumentation: "soprano, trumpet, double bass"
+  instrumentation: "soprano, piano"
   status: "incomplete"
 
-- title: "Three Songs after Antonio Machado"
+- title: "unas miradas - with text by Antonio Machado"
   date: "2017-18"
   category: "ensemble"
   dedication: "commissioned by First Unitarian Universalist Church of San Diego Women's Choir"
   instrumentation: "SSAA voices, piano"
-  status: "incomplete"
 
 - title: "3 tainiai - in collaboration with Alyssa Kai"
   date: "2016-2017"
@@ -128,13 +127,6 @@
   soundcloud: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84497002&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
 
 # Solos
-
-- title: "Darkling Thrush"
-  date: "2017-18"
-  category: "solo"
-  dedication: "written for Jonathan Nussman"
-  instrumentation: "baritone and piano, one player"
-  status: "incomplete"
 
 - title: "merewerges"
   date: "2016"
