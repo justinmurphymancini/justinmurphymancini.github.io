@@ -25,7 +25,7 @@
   location: "Vantaa, Finland"
 
 - date: Spring 2017
-  title: "CD Release: <em>Entrez le Diable! Virtuoso Cello at the Concert Spirituel</em>"
+  title: "CD Release: Entrez le Diable! Virtuoso Cello at the Concert Spirituel"
   previous: true
   description: "Juliana Soltis, baroque cello, with Lucas Harris, Adaiha MacAdam-Somer, and Justin Murphy-Mancini"
   
@@ -33,6 +33,10 @@
   title: "CD Release: Organ for the Senses I"
   previous: true
   description: "Music by Michael Pisaro, Sam Dunscombe, and others performed on the Spreckels Organ in Balboa Park"
+  
+- date: Fall 2018
+  title: "CD Release: lines and tracings"
+  description: "Music by Michael Pisaro and Morgan Evans-Weiler"
 
 - date: January 17, 2017
   title: "<em>merewerges</em> Premiere"
@@ -44,7 +48,7 @@
   title: "Fridays at First Premiere"
   previous: true
   description: "First installment of the Fridays at First lunchtime concert series. Works by J.S. Bach, H. Leslie Adams, and Louis Vierne"
-  location: "First Unitarian Universalist Church of San Diego"
+  location: "First Unitarian Universalist Church, San Diego, CA"
   
 - date: February 10, 2017
   title: "Carmine"
@@ -114,14 +118,27 @@
 
 - date: March 25, 2018
   title: "SUUN Choirs Present Fauré's <em>Requiem</em>"
+  previous: true
   description: "The combined choirs of San Diego's Unitarian Universalist congretations present a program of choral music, featuring Gabriel Fauré's extraordinary setting of the Requiem Mass"
   
 - date: April 12, 2018
   title: "Lines and Tracings"
+  previous: true
   description: "Premiering Morgan Evans-Weiler's work for clarinet, violin, cello, piano, and harpsichord on UCSD'S Soundings festival"
   location: "UCSD"
+  
+- date: August 21-24, 2018
+  title: "First UU Organ Fest"
+  previous: true
+  description: "Three fundraising concerts with Jennifer Bower featuring the 1970 Abbott & Sieker organ"
+  location: "First Unitarian Universalist Church, San Diego, CA"
 
-- date: May 31, 2018
-  title: "Premiere of new work"
+- date: November 14, 2018
+  title: "Morning Pipes Concert Series"
+  description: "A program of organ music exploring the development of the Prelude and Fugue forms by J.S. Bach, Dieterich Buxtehude, Felix Mendelssohn, and Elsa Barraine"
+  location: "First United Methodist Church, San Diego, CA
+
+- date: November 29, 2018
+  title: "Premiere of sic itur ad astra"
   description: "Premiering a new piece for harpsichord and percussion written for Sean Dowgray's DMA recital"
   location: "UCSD"
