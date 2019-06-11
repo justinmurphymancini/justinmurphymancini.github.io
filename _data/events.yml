@@ -36,6 +36,7 @@
   
 - date: Fall 2018
   title: "CD Release: lines and tracings"
+  previous: true
   description: "Music by Michael Pisaro and Morgan Evans-Weiler"
 
 - date: January 17, 2017
@@ -133,7 +134,20 @@
   description: "Three fundraising concerts with Jennifer Bower featuring the 1970 Abbott & Sieker organ"
   location: "First Unitarian Universalist Church, San Diego, CA"
 
+- date: November 5, 2018
+  title: "Queer Time | an art party"
+  previous: true
+  description: "Hillary Jean Young's final DMA recital, featuring the premiere of <em>Pinterest Sex</em>"
+  location: "UCSD"
+
 - date: November 29, 2018
   title: "Premiere of <em>sic itur ad astra</em>"
+  previous: true
   description: "Premiering a new piece for harpsichord and percussion written for Sean Dowgray's DMA recital"
+  location: "UCSD"
+  
+- date: June 2, 2019
+  title: "Hwilwæg"
+  previous: true
+  description: "Premiere of my dissertation piece, featuring an all-star cast of many singers and instrumentalists"
   location: "UCSD"
