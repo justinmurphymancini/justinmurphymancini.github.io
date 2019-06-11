@@ -28,18 +28,16 @@
 
 # Ensembles
 
-- title: "The Anglo-Saxon Chronicle, from earliest times to the victory of Edgar"
+- title: "Hwilwæg - with text from the Anglo-Saxon Chronicle"
   date: "2018-19"
   category: "ensemble"
   instrumentation: "chamber orchestra"
-  status: "incomplete"
 
 - title: "sic itur ad astra"
   date: "2018"
   category: "ensemble"
   dedication: "written for Sean Dowgray"
   instrumentation: "harpsichord, multipercussion"
-  status: "incomplete"
   
 - title: "Pinterest Sex - with text by Miguelzinta Solis"
   date: "2018"
@@ -47,7 +45,6 @@
   dedication: "written for Hillary Jean Young and Kyle Adam Blair"
   duration: "ca. 20'"
   instrumentation: "soprano, piano"
-  status: "incomplete"
 
 - title: "unas miradas - with text by Antonio Machado"
   date: "2017-18"
@@ -134,11 +131,19 @@
 
 # Solos
 
+- title: "Owl and Nightengale"
+  date: "2017-2020"
+  category: "solo"
+  dedication: "written for Madison Greenstone"
+  duration: "ca. 15'"
+  instrumentation: "e-flat clarinet"
+  status: "incomplete"
+
 - title: "merewerges"
   date: "2016"
   category: "solo"
   dedication: "written for Tyler Borden"
-  duration: "ca. 20'"
+  duration: "ca. 25'"
   instrumentation: "'cello"
 
 - title: "s---oa----------n//?tt/ or l___ry"
