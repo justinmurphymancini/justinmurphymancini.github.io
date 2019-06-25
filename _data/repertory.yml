@@ -21,25 +21,14 @@
 
 - composer: "Bach, Johann Sebastian"
   pieces:
-    - title: "Sonata in G major, BWV 530"
-    - title: "Prelude and Fugue in C major, BWV 531"
+    - title: "Sonata in C minor, BWV 526"
+    - title: "Prelude and Fugue in C major, BWV 545"
     - title: "Fantasia and Fugue in g minor, BWV 542"
     - title: "Toccata, Adagio, and Fugue in C major, BWV 564"
-    - title: "Praeludium in C major, BWV 566a"
-    - title: "Suite in b minor, BWV 814"
-    - title: "Prelude and Fugue in d minor, BWV 875"
-    - title: "Prelude and Fugue in B-flat, BWV 890"
-    - title: "Fantasia and Fugue in d minor, BWV 903"
-    - title: "Toccata in D major, BMV 912"
-    - title: "Sonata in d minor, BWV 964"
 
 - composer: "Barber, Samuel"
   pieces:
     - title: '"Wondrous Love", Variations on a Shape Note Hymn, Op. 34'
-
-- composer: "Böhm, Georg"
-  pieces:
-    - title: "Prelude and Fugue in C major"
 
 - composer: "Bolcom, William"
   pieces:
@@ -50,41 +39,12 @@
     - title: "Fugue in a-flat minor, WoO 8"
     - title: "Chorale Preludes, Op. 122 (selections)"
 
-- composer: "Buxtehude, Dieterich"
-  pieces:
-    - title: "Praeludium in a, BuxWV 153"
-    - title: "Toccata in F, BuxWV 156"
-    - title: "Canzona in G, BuxWV 170"
-    - title: "Chorale Fantasia on “Nun freut euch,” BuxWV 210"
-
-- composer: "Byrd, William"
-  pieces:
-    - title: "My Lady Nevell’s Book"
-      movements:
-        - title: "A ground for my Lady Nevell"
-        - title: "Fantasia (d final)"
-        - title: "Ut re mi fa so la"
-
-- composer: "Couperin, François"
-  pieces:
-    - title: "L’art de toucher le clavecin: Preludes 1-8"
-    - title: "Pieces de clavecin"
-      movements:
-        - title: "Ordre 6&egrave;me"
-        - title: "Ordre 24&egrave;me"
-
-- composer: "Couperin, Louis"
-  pieces:
-    - title: "Pi&egrave;ces en R&eacute;"
-
 - composer: "D’Anglebert, Jean Henry"
   pieces:
+    - title: "Pieces en D"
     - title: "Pieces en g (selections)"
+    - title: "Pieces en G (selections)"
     - title: "Tombeau pour M. de Chambonnieres"
-
-- composer: "Dupré, Marcel"
-  pieces:
-    - title: "Prélude et fugue en si majeur, Op. 7, No. 1"
 
 - composer: "Duruflé, Maurice"
   pieces:
@@ -100,17 +60,7 @@
   pieces:
     - title: "Libro Secondo: Toccata II"
     - title: "Libro Quarto: Toccata I, Ricercar IV, Suite III "
-    - title: Tombeau de M. Blancheroche
-
-- composer: "Howells, Herbert"
-  pieces:
-    - title: "Master Tallis' Testament"
-
-- composer: "Kerll, Johann Kaspar"
-  pieces:
-    - title: "Capriccio sopr’il cucu"
-    - title: "Passacaglia"
-    - title: "Toccata sexta"
+    - title: Tombeau de M. Blancherocher
 
 - composer: "Ligeti György"
   pieces:
@@ -122,11 +72,14 @@
 
 - composer: "Messiaen, Olivier"
   pieces:
+    - title: "La Nativite du Seigneur"
     - title: "Les corps glorieux"
     - title: "Livre du Saint Sacrement: Offrande et Alleluia final"
 
 - composer: "Price, Florence"
   pieces:
+    - title: "Adoration"
+    - title: "Retrospection"
     - title: "In Quiet Mood"
 
 - composer: "Reincken, Jan Adam"
@@ -141,16 +94,6 @@
 - composer: "Sandresky, Margaret Vardell"
   pieces:
     - title: "Four Sacred Dances"
-
-- composer: "Scarlatti, Domenico"
-  pieces:
-    - title: "Sonata in A, K. 26"
-    - title: "Sonata in b, K. 27"
-
-- composer: "Scheidt, Samuel"
-  pieces:
-    - title: "Bergamasca"
-    - title: "Toccata “In te Domine speravi”"
 
 - composer: "Schumann, Robert"
   pieces:
@@ -178,6 +121,7 @@
 
 - composer: "Tournemire, Charles"
   pieces:
+    - title: "L'Orgue Mystique: Epiphana Domini; In Assumptione B.M.V."
     - title: "Sept Chorals-Poëmes pour les Sept Paroles du Christ, Op. 67"
 
 - composer: "Vierne, Louis"
@@ -186,6 +130,7 @@
 
 - composer: "Walker, George"
   pieces:
+    - title: "Offertory"
     - title: "Invocation"
 
 - composer: "Willaert, Adrian"
